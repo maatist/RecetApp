@@ -19,7 +19,7 @@ class AppState extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => FollowService()),
         ChangeNotifierProvider(create: (_) => UserService()),
       ],
-      child: MyApp(),
+      child: const MyApp(),
     );
   }
 }
